@@ -1,6 +1,5 @@
-package entities.immagine;
+package entities;
 
-import entities.FileMultimediale;
 import interfaces.Luminosità;
 
 public class Immagine extends FileMultimediale implements Luminosità {
@@ -22,10 +21,20 @@ public class Immagine extends FileMultimediale implements Luminosità {
         brightness++;
     }
 
+    public void addBright(int n) {
+        brightness = n;
+    }
+
     @Override
     public void lowerBright() {
         if (brightness > 0) {
             brightness--;
+        }
+    }
+
+    public void lowerBright(int n) {
+        if (brightness > 0) {
+            brightness = n;
         }
     }
 //quì dichiaro il metodo show() che mi serve solo per le immagini
