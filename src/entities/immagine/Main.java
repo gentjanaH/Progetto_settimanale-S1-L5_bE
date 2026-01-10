@@ -1,4 +1,4 @@
-package entities;
+package entities.immagine;
 
 public class Main {
     public static void main(String[] args) {

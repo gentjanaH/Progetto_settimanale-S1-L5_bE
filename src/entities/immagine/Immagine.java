@@ -1,5 +1,6 @@
-package entities;
+package entities.immagine;
 
+import entities.FileMultimediale;
 import interfaces.Luminosità;
 
 public class Immagine extends FileMultimediale implements Luminosità {

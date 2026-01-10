@@ -1,4 +1,4 @@
-package entities;
+package entities.audio;
 
 public class Audio {
     
