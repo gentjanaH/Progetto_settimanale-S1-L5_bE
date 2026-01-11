@@ -14,9 +14,8 @@ public abstract class FileMultimediale {
         return title;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+    
+    public abstract void esegui();
 
     @Override
     public String toString() {

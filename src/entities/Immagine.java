@@ -44,5 +44,10 @@ public class Immagine extends FileMultimediale implements Luminosità {
         System.out.println("Titolo dell'immagine: " + getTitle() + " " + "*".repeat(brightness));
     }
 
+    @Override
+    public void esegui() {
+        show();
+    }
+
 
 }

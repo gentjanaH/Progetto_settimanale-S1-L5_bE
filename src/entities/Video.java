@@ -75,4 +75,8 @@ public class Video extends FileMultimediale implements Volume, Luminosità, Play
     }
 
 
+    @Override
+    public void esegui() {
+        play();
+    }
 }

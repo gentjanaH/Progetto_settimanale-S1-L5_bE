@@ -42,9 +42,16 @@ public class Audio extends FileMultimediale implements Volume, Player {
 
     //metodo play()
 
+    @Override
     public void play() {
+        System.out.println("Titolo audio: " + getTitle() + " " + "!".repeat(volume));
+    }
+
+    @Override
+    public void esegui() {
         for (int i = 0; i < durata; i++) {
-            System.out.println("Titolo audio: " + getTitle() + " " + "!".repeat(volume));
+            play();
+
         }
 
     }
